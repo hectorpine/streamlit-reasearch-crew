@@ -14,7 +14,8 @@ Documentation = "https://github.com/joaomdmoura/CrewAI/wiki/Index"
 Repository = "https://github.com/joaomdmoura/crewai"
 
 [tool.poetry.dependencies]
-python = ">=3.12,<=3.13"
+pysqlite3-binary = "^0.5.1"
+python = ">=3.10,<=3.13"
 pydantic = "^2.4.2"
 langchain = "^0.1.10"
 openai = "^1.13.3"
