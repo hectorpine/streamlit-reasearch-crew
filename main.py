@@ -5,9 +5,8 @@ from textwrap import dedent
 from agents import ResearchCrewAgents
 from tasks import ResearchCrewTasks
 
-# Set up environment variables
-os.environ["OPENAI_API_KEY"] = "YOU API KEY HERE"
-os.environ["SERPER_API_KEY"] = "YOUR API KEY HERE"
+
+
 class ResearchCrew:
     def __init__(self, inputs):
         self.inputs = inputs
