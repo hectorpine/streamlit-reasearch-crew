@@ -2,7 +2,7 @@ import streamlit as st
 from main import ResearchCrew  # Import the ResearchCrew class from main.py
 import os
 
-st.title('Research Crew Setup')
+st.title('LOCAL RESTAURANT FINDER')
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 os.environ["SERPER_API_KEY"] = st.secrets["SERPER_API_KEY"]
 
